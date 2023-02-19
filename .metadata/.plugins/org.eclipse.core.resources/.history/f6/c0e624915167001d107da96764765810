@@ -1,0 +1,21 @@
+package Anagram;
+
+import java.util.Arrays;
+
+public class AnagramDemo {
+
+	public static void main(String[] args) {
+		String str1="JAVA";
+		String str2="AVAJ";
+		
+		System.out.println("Both are Anagrams");
+	}
+	public static boolean anagramCheck(char[] ch12,char[] ch22) {
+		char[] ch1=ch12.toCharArray();
+		char[] ch2=ch22.toCharArray();
+		Arrays.sort(ch1);
+		Arrays.sort(ch2);
+		return anagramCheck(ch1,ch2);
+		
+	}
+}

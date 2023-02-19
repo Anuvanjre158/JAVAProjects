@@ -1,0 +1,12 @@
+package WhiteSpaceRemove;
+
+public class RemoveWhiteSpace {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="Java      is a Object    oriented programing    language";
+str.replaceAll(" ", "");
+System.out.println("After removal of white spaces:"+str);
+	}
+
+}

@@ -1,0 +1,33 @@
+package Overriding;
+
+public class Bank {
+
+	int getRateOfInterest() {
+		return 0;
+	}
+	
+class SBI extends Bank{
+	
+	int getRateOfInterest() {
+		return 5;
+	}
+}
+class HDFC extends Bank{
+	
+	int getRateOfInterest() {
+		return 6;
+	}
+}
+class Axis extends Bank{
+	
+	int getRateOfInterest() {
+		return 7;
+	}
+}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
